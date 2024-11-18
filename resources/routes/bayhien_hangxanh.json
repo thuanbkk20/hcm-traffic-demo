@@ -1,0 +1,1688 @@
+{
+    "routes": [
+        {
+            "id": "518524a5-80d0-4c85-91af-2f85c66f196a",
+            "sections": [
+                {
+                    "id": "fdcd81d7-fccb-4c92-bc7b-520fe9a70289",
+                    "type": "vehicle",
+                    "turnByTurnActions": [
+                        {
+                            "action": "depart",
+                            "duration": 152,
+                            "length": 600,
+                            "offset": 0,
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Hoang Van Thu",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Hoàng Văn Thụ",
+                                        "language": "vi"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "action": "continue",
+                            "duration": 14,
+                            "length": 56,
+                            "offset": 21,
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Hoang Van Thu",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Hoàng Văn Thụ",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Hem 437 Hoang Van Thu",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Hẻm 437 Hoàng Văn Thụ",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": 2.306572
+                        },
+                        {
+                            "action": "continue",
+                            "duration": 13,
+                            "length": 55,
+                            "offset": 22,
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Hem 437 Hoang Van Thu",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Hẻm 437 Hoàng Văn Thụ",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Hoang Van Thu",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Hoàng Văn Thụ",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": -6.4377027
+                        },
+                        {
+                            "action": "continue",
+                            "duration": 17,
+                            "length": 69,
+                            "offset": 24,
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Hoang Van Thu",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Hoàng Văn Thụ",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Hem 324 Hoang Van Thu",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Hẻm 324 Hoàng Văn Thụ",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": 4.8523645
+                        },
+                        {
+                            "action": "continue",
+                            "duration": 40,
+                            "length": 165,
+                            "offset": 26,
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Hem 324 Hoang Van Thu",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Hẻm 324 Hoàng Văn Thụ",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Hoang Van Thu",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Hoàng Văn Thụ",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": -0.1378708
+                        },
+                        {
+                            "action": "continue",
+                            "duration": 3,
+                            "length": 13,
+                            "offset": 30,
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Hoang Van Thu",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Hoàng Văn Thụ",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Hem 415 Hoang Van Thu",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Hẻm 415 Hoàng Văn Thụ",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": 1.0395241
+                        },
+                        {
+                            "action": "continue",
+                            "duration": 54,
+                            "length": 202,
+                            "offset": 31,
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Hem 415 Hoang Van Thu",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Hẻm 415 Hoàng Văn Thụ",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Hoang Van Thu",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Hoàng Văn Thụ",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": -1.9270833
+                        },
+                        {
+                            "action": "roundaboutEnter",
+                            "duration": 6,
+                            "length": 26,
+                            "offset": 38,
+                            "direction": "right",
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Hoang Van Thu",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Hoàng Văn Thụ",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Hoang Van Thu",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Duong Lang Cha Ca",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Vong Xoay Lang Cha Ca",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Hoàng Văn Thụ",
+                                        "language": "vi"
+                                    },
+                                    {
+                                        "value": "Đường Lăng Cha Cả",
+                                        "language": "vi"
+                                    },
+                                    {
+                                        "value": "Vòng Xoay Lăng Cha Cả",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": 38.4245872
+                        },
+                        {
+                            "action": "roundaboutExit",
+                            "duration": 14,
+                            "length": 51,
+                            "offset": 42,
+                            "direction": "right",
+                            "exit": 1,
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Hoang Van Thu",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Duong Lang Cha Ca",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Vong Xoay Lang Cha Ca",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Hoàng Văn Thụ",
+                                        "language": "vi"
+                                    },
+                                    {
+                                        "value": "Đường Lăng Cha Cả",
+                                        "language": "vi"
+                                    },
+                                    {
+                                        "value": "Vòng Xoay Lăng Cha Cả",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Hoang Van Thu",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Hoàng Văn Thụ",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "roundaboutAngle": 179.0
+                        },
+                        {
+                            "action": "turn",
+                            "duration": 169,
+                            "length": 668,
+                            "offset": 47,
+                            "direction": "right",
+                            "severity": "quite",
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Hoang Van Thu",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Hoàng Văn Thụ",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Cau Vuot Lang Cha Ca",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Duong Hoang Van Thu",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Cầu Vượt Lăng Cha Cả",
+                                        "language": "vi"
+                                    },
+                                    {
+                                        "value": "Đường Hoàng Văn Thụ",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": 54.0740204
+                        },
+                        {
+                            "action": "keep",
+                            "duration": 98,
+                            "length": 423,
+                            "offset": 68,
+                            "direction": "left",
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Hoang Van Thu",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Hoàng Văn Thụ",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Hoang Van Thu",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Hoàng Văn Thụ",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": 14.4846249
+                        },
+                        {
+                            "action": "continue",
+                            "duration": 6,
+                            "length": 25,
+                            "offset": 83,
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Hoang Van Thu",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Hoàng Văn Thụ",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Hem 211 Hoang Van Thu",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Hẻm 211 Hoàng Văn Thụ",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": 5.0753837
+                        },
+                        {
+                            "action": "continue",
+                            "duration": 89,
+                            "length": 361,
+                            "offset": 84,
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Hem 211 Hoang Van Thu",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Hẻm 211 Hoàng Văn Thụ",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Hoang Van Thu",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Hoàng Văn Thụ",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": -5.0753837
+                        },
+                        {
+                            "action": "continue",
+                            "duration": 8,
+                            "length": 34,
+                            "offset": 95,
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Hoang Van Thu",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Hoàng Văn Thụ",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Hem 159 Hoang Van Thu",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Hẻm 159 Hoàng Văn Thụ",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": -2.0778871
+                        },
+                        {
+                            "action": "continue",
+                            "duration": 2,
+                            "length": 10,
+                            "offset": 96,
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Hem 159 Hoang Van Thu",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Hẻm 159 Hoàng Văn Thụ",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Hoang Van Thu",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Hoàng Văn Thụ",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": 2.745012
+                        },
+                        {
+                            "action": "continue",
+                            "duration": 11,
+                            "length": 44,
+                            "offset": 97,
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Hoang Van Thu",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Hoàng Văn Thụ",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Hem 170 Hoang Van Thu",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Hẻm 170 Hoàng Văn Thụ",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": -3.075798
+                        },
+                        {
+                            "action": "continue",
+                            "duration": 8,
+                            "length": 32,
+                            "offset": 99,
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Hem 170 Hoang Van Thu",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Hẻm 170 Hoàng Văn Thụ",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Hem 129 Hoang Van Thu",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Hẻm 129 Hoàng Văn Thụ",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": -1.0636722
+                        },
+                        {
+                            "action": "continue",
+                            "duration": 40,
+                            "length": 167,
+                            "offset": 100,
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Hem 129 Hoang Van Thu",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Hẻm 129 Hoàng Văn Thụ",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Hoang Van Thu",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Hoàng Văn Thụ",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": 5.6074896
+                        },
+                        {
+                            "action": "continue",
+                            "duration": 25,
+                            "length": 105,
+                            "offset": 107,
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Hoang Van Thu",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Hoàng Văn Thụ",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Hem 73 Hoang Van Thu",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Hẻm 73 Hoàng Văn Thụ",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": 0.5658812
+                        },
+                        {
+                            "action": "continue",
+                            "duration": 28,
+                            "length": 115,
+                            "offset": 109,
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Hem 73 Hoang Van Thu",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Hẻm 73 Hoàng Văn Thụ",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Hoang Van Thu",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Hoàng Văn Thụ",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": -0.7977388
+                        },
+                        {
+                            "action": "continue",
+                            "duration": 6,
+                            "length": 26,
+                            "offset": 111,
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Hoang Van Thu",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Hoàng Văn Thụ",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Hem 23 Hoang Van Thu",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Hẻm 23 Hoàng Văn Thụ",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": -3.0374944
+                        },
+                        {
+                            "action": "continue",
+                            "duration": 14,
+                            "length": 53,
+                            "offset": 112,
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Hem 23 Hoang Van Thu",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Hẻm 23 Hoàng Văn Thụ",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Hoang Van Thu",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Hoàng Văn Thụ",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": 0.9989083
+                        },
+                        {
+                            "action": "turn",
+                            "duration": 50,
+                            "length": 189,
+                            "offset": 115,
+                            "direction": "left",
+                            "severity": "light",
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Hoang Van Thu",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Hoàng Văn Thụ",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Phan Dang Luu",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Phan Đăng Lưu",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": -25.9795189
+                        },
+                        {
+                            "action": "continue",
+                            "duration": 6,
+                            "length": 30,
+                            "offset": 124,
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Phan Dang Luu",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Phan Đăng Lưu",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Hem 178 Phan Dang Luu",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Hẻm 178 Phan Đăng Lưu",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": 1.4784594
+                        },
+                        {
+                            "action": "continue",
+                            "duration": 8,
+                            "length": 33,
+                            "offset": 125,
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Hem 178 Phan Dang Luu",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Hẻm 178 Phan Đăng Lưu",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Hem 165 Phan Dang Luu",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Hẻm 165 Phan Đăng Lưu",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": -1.485129
+                        },
+                        {
+                            "action": "continue",
+                            "duration": 28,
+                            "length": 95,
+                            "offset": 126,
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Hem 165 Phan Dang Luu",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Hẻm 165 Phan Đăng Lưu",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Phan Dang Luu",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Phan Đăng Lưu",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": -1.3853843
+                        },
+                        {
+                            "action": "continue",
+                            "duration": 17,
+                            "length": 69,
+                            "offset": 130,
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Phan Dang Luu",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Phan Đăng Lưu",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Hem 162 Phan Dang Luu",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Hẻm 162 Phan Đăng Lưu",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": 1.1938864
+                        },
+                        {
+                            "action": "continue",
+                            "duration": 9,
+                            "length": 36,
+                            "offset": 131,
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Hem 162 Phan Dang Luu",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Hẻm 162 Phan Đăng Lưu",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Phan Dang Luu",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Phan Đăng Lưu",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": -5.9917116
+                        },
+                        {
+                            "action": "continue",
+                            "duration": 7,
+                            "length": 30,
+                            "offset": 133,
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Phan Dang Luu",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Phan Đăng Lưu",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Hem 143 Phan Dang Luu",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Hẻm 143 Phan Đăng Lưu",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": -3.8231711
+                        },
+                        {
+                            "action": "continue",
+                            "duration": 5,
+                            "length": 27,
+                            "offset": 134,
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Hem 143 Phan Dang Luu",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Hẻm 143 Phan Đăng Lưu",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Hem 126 Phan Dang Luu",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Hẻm 126 Phan Đăng Lưu",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": 1.6416701
+                        },
+                        {
+                            "action": "continue",
+                            "duration": 7,
+                            "length": 35,
+                            "offset": 135,
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Hem 126 Phan Dang Luu",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Hẻm 126 Phan Đăng Lưu",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Hem 139 Phan Dang Luu",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Hẻm 139 Phan Đăng Lưu",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": -0.3666616
+                        },
+                        {
+                            "action": "continue",
+                            "duration": 83,
+                            "length": 343,
+                            "offset": 136,
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Hem 139 Phan Dang Luu",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Hẻm 139 Phan Đăng Lưu",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Phan Dang Luu",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Phan Đăng Lưu",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": -3.5485668
+                        },
+                        {
+                            "action": "continue",
+                            "duration": 2,
+                            "length": 10,
+                            "offset": 153,
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Phan Dang Luu",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Phan Đăng Lưu",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Hem 58 Phan Dang Luu",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Hẻm 58 Phan Đăng Lưu",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": -0.325479
+                        },
+                        {
+                            "action": "continue",
+                            "duration": 3,
+                            "length": 14,
+                            "offset": 154,
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Hem 58 Phan Dang Luu",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Hẻm 58 Phan Đăng Lưu",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Phan Dang Luu",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Phan Đăng Lưu",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": -2.0248642
+                        },
+                        {
+                            "action": "continue",
+                            "duration": 7,
+                            "length": 15,
+                            "offset": 155,
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Phan Dang Luu",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Phan Đăng Lưu",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Hem 58 Phan Dang Luu",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Hẻm 58 Phan Đăng Lưu",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": 3.7956319
+                        },
+                        {
+                            "action": "continue",
+                            "duration": 106,
+                            "length": 442,
+                            "offset": 156,
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Hem 58 Phan Dang Luu",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Hẻm 58 Phan Đăng Lưu",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Phan Dang Luu",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Phan Đăng Lưu",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": 0.880466
+                        },
+                        {
+                            "action": "continue",
+                            "duration": 3,
+                            "length": 13,
+                            "offset": 175,
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Phan Dang Luu",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Phan Đăng Lưu",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Hem 181 Phan Dang Luu",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Hẻm 181 Phan Đăng Lưu",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": 1.4003186
+                        },
+                        {
+                            "action": "continue",
+                            "duration": 204,
+                            "length": 846,
+                            "offset": 176,
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Hem 181 Phan Dang Luu",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Hẻm 181 Phan Đăng Lưu",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Phan Dang Luu",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Phan Đăng Lưu",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": -2.5836489
+                        },
+                        {
+                            "action": "continue",
+                            "duration": 131,
+                            "length": 549,
+                            "offset": 201,
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Phan Dang Luu",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Phan Đăng Lưu",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Bach Dang",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Bạch Đằng",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": 0.4953663
+                        },
+                        {
+                            "action": "continue",
+                            "duration": 25,
+                            "length": 101,
+                            "offset": 221,
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Bach Dang",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Bạch Đằng",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Hem 377 Bach Dang",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Hẻm 377 Bạch Đằng",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": 0.2074738
+                        },
+                        {
+                            "action": "continue",
+                            "duration": 7,
+                            "length": 32,
+                            "offset": 225,
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Hem 377 Bach Dang",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Hẻm 377 Bạch Đằng",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Bach Dang",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Bạch Đằng",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": -2.9247074
+                        },
+                        {
+                            "action": "continue",
+                            "duration": 7,
+                            "length": 31,
+                            "offset": 227,
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Bach Dang",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Bạch Đằng",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Hem 325 Bach Dang",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Hẻm 325 Bạch Đằng",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": 1.3902782
+                        },
+                        {
+                            "action": "continue",
+                            "duration": 12,
+                            "length": 50,
+                            "offset": 228,
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Hem 325 Bach Dang",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Hẻm 325 Bạch Đằng",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Bach Dang",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Bạch Đằng",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": -6.2384009
+                        },
+                        {
+                            "action": "continue",
+                            "duration": 20,
+                            "length": 73,
+                            "offset": 230,
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Bach Dang",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Bạch Đằng",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Hem 293 Bach Dang",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Hẻm 293 Bạch Đằng",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": -1.1301777
+                        },
+                        {
+                            "action": "continue",
+                            "duration": 27,
+                            "length": 114,
+                            "offset": 232,
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Hem 293 Bach Dang",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Hẻm 293 Bạch Đằng",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Bach Dang",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Bạch Đằng",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": -1.4669334
+                        },
+                        {
+                            "action": "continue",
+                            "duration": 18,
+                            "length": 76,
+                            "offset": 236,
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Bach Dang",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Bạch Đằng",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Hem 207 Bach Dang",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Hẻm 207 Bạch Đằng",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": 0.5725952
+                        },
+                        {
+                            "action": "continue",
+                            "duration": 3,
+                            "length": 14,
+                            "offset": 238,
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Hem 207 Bach Dang",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Hẻm 207 Bạch Đằng",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Hem 179 Bach Dang",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Hẻm 179 Bạch Đằng",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": -1.0689042
+                        },
+                        {
+                            "action": "continue",
+                            "duration": 104,
+                            "length": 403,
+                            "offset": 239,
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Hem 179 Bach Dang",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Hẻm 179 Bạch Đằng",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Bach Dang",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Bạch Đằng",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": -1.2281227
+                        },
+                        {
+                            "action": "turn",
+                            "duration": 36,
+                            "length": 154,
+                            "offset": 249,
+                            "direction": "right",
+                            "severity": "quite",
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Bach Dang",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Bạch Đằng",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Xo Viet Nghe Tinh",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Xô Viết Nghệ Tĩnh",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": 92.4359436
+                        },
+                        {
+                            "action": "continue",
+                            "duration": 20,
+                            "length": 37,
+                            "offset": 256,
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Xo Viet Nghe Tinh",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Xô Viết Nghệ Tĩnh",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Nga Tu Hang Xanh",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Ngã Tư Hàng Xanh",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": -5.3943877
+                        },
+                        {
+                            "action": "continue",
+                            "duration": 12,
+                            "length": 39,
+                            "offset": 259,
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Nga Tu Hang Xanh",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Ngã Tư Hàng Xanh",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Xo Viet Nghe Tinh",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Xô Viết Nghệ Tĩnh",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": -0.5071689
+                        },
+                        {
+                            "action": "arrive",
+                            "duration": 0,
+                            "length": 0,
+                            "offset": 261,
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Xo Viet Nghe Tinh",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Xô Viết Nghệ Tĩnh",
+                                        "language": "vi"
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "departure": {
+                        "time": "2024-11-10T01:19:38+07:00",
+                        "place": {
+                            "type": "place",
+                            "location": {
+                                "lat": 10.79285,
+                                "lng": 106.65347
+                            },
+                            "originalLocation": {
+                                "lat": 10.79283,
+                                "lng": 106.65348
+                            }
+                        }
+                    },
+                    "arrival": {
+                        "time": "2024-11-10T01:49:22+07:00",
+                        "place": {
+                            "type": "place",
+                            "location": {
+                                "lat": 10.8007899,
+                                "lng": 106.7112599
+                            },
+                            "originalLocation": {
+                                "lat": 10.80077,
+                                "lng": 106.71122
+                            }
+                        }
+                    },
+                    "summary": {
+                        "duration": 1784,
+                        "length": 7200,
+                        "baseDuration": 1784
+                    },
+                    "polyline": "BGk53yU8xztrGgK8GwHgFwWkS0PkNgF4D0FwCkS4S0PoQ4D4DoGgFgK0K0K0KgFsEwMgPsJsJ0P8Q4S0UwCwC4I4I8VwWgU0UoV4XwR0P0F0F8QgU4IsJsJgKsnBkmBgKgKwHkIgF0FwMkNkIkIkNgP8GwHgKgK4N4NkN8QA4DU4DoBkDwCkDwCsEkDgFsE0F8GoGoBoBTsEAsE7BkhBjDkhBToLnBoLAgFToLnBoQA8G8BsETgFT8L_Eg8BvCofvCgevCoa7BkST8LnBsOoBsdnGgevCof3D4XT4STsJTkI7BkSnBoVToGnB4N7BsTToLTwHToQA0FnBsOAsOAsJTsJvCkXvCwbnBwRrEoVvC8fT8GvC8fnBwMnBsTT0FT0KnBsOnBkST4DA4DjD0jBTkIAwCTgKvCofrE4wBnBoLvC0Z3DgoBTgPT0KT4NU0FkDgFgF0FsE0FoQ8QsJgK8L8L4I4I4D4D0K0K8LwMkNkNkNwMwHkIgFgFwMkNoa4c0FgF4IgK8L8L0KoL4NsOoQgP0Z0Z4DoGoG0F0FgF4D4D0FgF8G8GoG4I4D0KwC8GUsEoBoGUgKvCwWT8GnB0KT0FTkInB4I7B8L3DgP7BwMnBoGnBkI7BwR7BkXnBwRnBoLnBgKvCgU7BoLTsEAwHAwH3D8avCsJvC8VnB4InBwHjD0ZvC4SnB0KnBkIrEkhBjDsdjD4XTwHTwM_E0jB7BsOjDkhBnBkInBkIvC0P_E4hBjD8V7B8LjI89BjDkXToGoBgFoBkDkIsTkD8GwC0FgKwWsEoLoL8awMgjB4DsJ8Q0oBgKgZ8BoGoBoGnB4IvCsOnG4XzFsTnB4D7BkIT4DT8BvC8LvC8L7B4InBkInB0PnBgZA0KTwH7BwRAwH7BoVnBkS7BkXToLnB0PnB4SnBsTnB8QvCoaTkInBwWnB0UnBsOnBsT7BgZjDssBnBkSvCkhBTgPnBwRzKnB7LArJT_JTnVTzKT7LvCzFT3I7BnGT3NnBjIT",
+                    "transport": {
+                        "mode": "bicycle"
+                    }
+                }
+            ]
+        }
+    ]
+}

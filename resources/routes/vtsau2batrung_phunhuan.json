@@ -1,0 +1,553 @@
+{
+    "routes": [
+        {
+            "id": "8f2e0dce-1c99-4d9d-a0b3-3a4707972477",
+            "sections": [
+                {
+                    "id": "7047ea5d-925e-4490-999e-ea686672fb3f",
+                    "type": "vehicle",
+                    "turnByTurnActions": [
+                        {
+                            "action": "depart",
+                            "duration": 10,
+                            "length": 41,
+                            "offset": 0,
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Hai Ba Trung",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Hai Bà Trưng",
+                                        "language": "vi"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "action": "continue",
+                            "duration": 2,
+                            "length": 8,
+                            "offset": 1,
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Hai Ba Trung",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Hai Bà Trưng",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Hem 220 Hai Ba Trung",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Hẻm 220 Hai Bà Trưng",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": 3.2138226
+                        },
+                        {
+                            "action": "continue",
+                            "duration": 17,
+                            "length": 74,
+                            "offset": 2,
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Hem 220 Hai Ba Trung",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Hẻm 220 Hai Bà Trưng",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Hem 230 Hai Ba Trung",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Hẻm 230 Hai Bà Trưng",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": -5.375195
+                        },
+                        {
+                            "action": "continue",
+                            "duration": 8,
+                            "length": 39,
+                            "offset": 4,
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Hem 230 Hai Ba Trung",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Hẻm 230 Hai Bà Trưng",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Hem 250 Hai Ba Trung",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Hẻm 250 Hai Bà Trưng",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": -0.9527568
+                        },
+                        {
+                            "action": "continue",
+                            "duration": 60,
+                            "length": 240,
+                            "offset": 5,
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Hem 250 Hai Ba Trung",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Hẻm 250 Hai Bà Trưng",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Hai Ba Trung",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Hai Bà Trưng",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": 9.1118546
+                        },
+                        {
+                            "action": "continue",
+                            "duration": 7,
+                            "length": 31,
+                            "offset": 14,
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Hai Ba Trung",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Hai Bà Trưng",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Hem 362 Hai Ba Trung",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Hẻm 362 Hai Bà Trưng",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": -0.399047
+                        },
+                        {
+                            "action": "continue",
+                            "duration": 7,
+                            "length": 16,
+                            "offset": 15,
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Hem 362 Hai Ba Trung",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Hẻm 362 Hai Bà Trưng",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Hai Ba Trung",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Hai Bà Trưng",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": 0.3922441
+                        },
+                        {
+                            "action": "continue",
+                            "duration": 3,
+                            "length": 12,
+                            "offset": 16,
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Hai Ba Trung",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Hai Bà Trưng",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Hem 362 Hai Ba Trung",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Hẻm 362 Hai Bà Trưng",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": 4.3411865
+                        },
+                        {
+                            "action": "continue",
+                            "duration": 9,
+                            "length": 38,
+                            "offset": 17,
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Hem 362 Hai Ba Trung",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Hẻm 362 Hai Bà Trưng",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Hem 392 Hai Ba Trung",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Hẻm 392 Hai Bà Trưng",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": -4.3215156
+                        },
+                        {
+                            "action": "continue",
+                            "duration": 95,
+                            "length": 423,
+                            "offset": 18,
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Hem 392 Hai Ba Trung",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Hẻm 392 Hai Bà Trưng",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Hai Ba Trung",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Hai Bà Trưng",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": 14.4453316
+                        },
+                        {
+                            "action": "continue",
+                            "duration": 17,
+                            "length": 75,
+                            "offset": 41,
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Phan Dinh Phung",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Phan Đình Phùng",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Hem 41 Phan Dinh Phung",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Hẻm 41 Phan Đình Phùng",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": -5.7185898
+                        },
+                        {
+                            "action": "continue",
+                            "duration": 8,
+                            "length": 34,
+                            "offset": 43,
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Hem 41 Phan Dinh Phung",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Hẻm 41 Phan Đình Phùng",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Hem 61 Phan Dinh Phung",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Hẻm 61 Phan Đình Phùng",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": 1.5759978
+                        },
+                        {
+                            "action": "continue",
+                            "duration": 14,
+                            "length": 41,
+                            "offset": 44,
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Hem 61 Phan Dinh Phung",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Hẻm 61 Phan Đình Phùng",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Hem 50 Phan Dinh Phung",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Hẻm 50 Phan Đình Phùng",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": -1.1470894
+                        },
+                        {
+                            "action": "continue",
+                            "duration": 68,
+                            "length": 270,
+                            "offset": 46,
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Hem 50 Phan Dinh Phung",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Hẻm 50 Phan Đình Phùng",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Phan Dinh Phung",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Phan Đình Phùng",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": -4.069891
+                        },
+                        {
+                            "action": "continue",
+                            "duration": 8,
+                            "length": 28,
+                            "offset": 54,
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Phan Dinh Phung",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Phan Đình Phùng",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Hem 185 Phan Dinh Phung",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Hẻm 185 Phan Đình Phùng",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": 2.9159443
+                        },
+                        {
+                            "action": "continue",
+                            "duration": 12,
+                            "length": 42,
+                            "offset": 55,
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Hem 185 Phan Dinh Phung",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Hẻm 185 Phan Đình Phùng",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Phan Dinh Phung",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Phan Đình Phùng",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": -0.0048904
+                        },
+                        {
+                            "action": "arrive",
+                            "duration": 0,
+                            "length": 0,
+                            "offset": 56,
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Phan Dinh Phung",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Phan Đình Phùng",
+                                        "language": "vi"
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "departure": {
+                        "time": "2024-11-17T00:06:53+07:00",
+                        "place": {
+                            "type": "place",
+                            "location": {
+                                "lat": 10.78786,
+                                "lng": 106.6919599
+                            },
+                            "originalLocation": {
+                                "lat": 10.7879039,
+                                "lng": 106.6919709
+                            }
+                        }
+                    },
+                    "arrival": {
+                        "time": "2024-11-17T00:12:38+07:00",
+                        "place": {
+                            "type": "place",
+                            "location": {
+                                "lat": 10.79585,
+                                "lng": 106.68191
+                            },
+                            "originalLocation": {
+                                "lat": 10.79585,
+                                "lng": 106.68191
+                            }
+                        }
+                    },
+                    "summary": {
+                        "duration": 345,
+                        "length": 1412,
+                        "baseDuration": 345
+                    },
+                    "polyline": "BGohuyUw3-vrG0PvRkDjDgPjSoL_OkNjSgK_JkSvWsEvHgFrEsEzFkN7QgKvM4InLoL_O0KrO0FvHsE_EkNvRkDvCkNnQ0P_TsE_EwC3DkIrJkD_E8G_J8BvC0PjS8GrJsEnGgKzKgFzFgFvH4NzPkDjDoGvHwCjDkDrEoG3IkD3D8G3I4I3NoQzUwM_OgKvMgFzF4SrY4NnQwMrO8GjIgFvHoGrJgU_YoLzPgKvMgP3S",
+                    "transport": {
+                        "mode": "bicycle"
+                    }
+                }
+            ]
+        }
+    ]
+}

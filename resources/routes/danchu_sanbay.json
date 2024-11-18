@@ -1,0 +1,645 @@
+{
+    "routes": [
+        {
+            "id": "2d8f6f3f-6841-4a0c-98e2-b6961b6ad5f2",
+            "sections": [
+                {
+                    "id": "05598eb7-fedc-4b61-8365-367ae1af7021",
+                    "type": "pedestrian",
+                    "turnByTurnActions": [
+                        {
+                            "action": "depart",
+                            "duration": 0,
+                            "length": 0,
+                            "offset": 0,
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Ly Chinh Thang",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Lý Chính Thắng",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Cong Truong Dan Chu",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Công Trường Dân Chủ",
+                                        "language": "vi"
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "departure": {
+                        "time": "2024-11-16T23:07:29+07:00",
+                        "place": {
+                            "type": "place",
+                            "location": {
+                                "lat": 10.7780699,
+                                "lng": 106.6815
+                            },
+                            "originalLocation": {
+                                "lat": 10.77786,
+                                "lng": 106.6816499
+                            }
+                        }
+                    },
+                    "arrival": {
+                        "time": "2024-11-16T23:08:18+07:00",
+                        "place": {
+                            "type": "place",
+                            "location": {
+                                "lat": 10.7781299,
+                                "lng": 106.68168
+                            }
+                        }
+                    },
+                    "summary": {
+                        "duration": 49,
+                        "length": 21,
+                        "baseDuration": 49
+                    },
+                    "polyline": "BGs96xU4pqvrGkD0FU0F",
+                    "transport": {
+                        "mode": "pedestrian"
+                    }
+                },
+                {
+                    "id": "703a8f6d-59e4-41d2-9c6d-24e3e094dfb6",
+                    "type": "vehicle",
+                    "turnByTurnActions": [
+                        {
+                            "action": "depart",
+                            "duration": 285,
+                            "length": 1157,
+                            "offset": 0,
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Ly Chinh Thang",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Lý Chính Thắng",
+                                        "language": "vi"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "action": "continue",
+                            "duration": 20,
+                            "length": 87,
+                            "offset": 38,
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Ly Chinh Thang",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Lý Chính Thắng",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Hem 150 Ly Chinh Thang",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Hẻm 150 Lý Chính Thắng",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": 3.3219888
+                        },
+                        {
+                            "action": "continue",
+                            "duration": 19,
+                            "length": 9,
+                            "offset": 42,
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Hem 150 Ly Chinh Thang",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Hẻm 150 Lý Chính Thắng",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Ly Chinh Thang",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Lý Chính Thắng",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": -5.000185
+                        },
+                        {
+                            "action": "turn",
+                            "duration": 13,
+                            "length": 59,
+                            "offset": 43,
+                            "direction": "left",
+                            "severity": "quite",
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Ly Chinh Thang",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Lý Chính Thắng",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Nam Ky Khoi Nghia",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Nam Kỳ Khởi Nghĩa",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": -66.0721054
+                        },
+                        {
+                            "action": "continue",
+                            "duration": 13,
+                            "length": 52,
+                            "offset": 44,
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Nam Ky Khoi Nghia",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Nam Kỳ Khởi Nghĩa",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Hem 235 Nam Ky Khoi Nghia",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Hẻm 235 Nam Kỳ Khởi Nghĩa",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": -1.0602366
+                        },
+                        {
+                            "action": "continue",
+                            "duration": 115,
+                            "length": 493,
+                            "offset": 45,
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Hem 235 Nam Ky Khoi Nghia",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Hẻm 235 Nam Kỳ Khởi Nghĩa",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Nam Ky Khoi Nghia",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Nam Kỳ Khởi Nghĩa",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": -0.6215472
+                        },
+                        {
+                            "action": "continue",
+                            "duration": 156,
+                            "length": 577,
+                            "offset": 68,
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Cau Cong Ly",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Duong Nam Ky Khoi Nghia",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Cầu Công Lý",
+                                        "language": "vi"
+                                    },
+                                    {
+                                        "value": "Đường Nam Kỳ Khởi Nghĩa",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Nguyen Van Troi",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Nguyễn Văn Trỗi",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": -10.7995405
+                        },
+                        {
+                            "action": "continue",
+                            "duration": 12,
+                            "length": 50,
+                            "offset": 85,
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Nguyen Van Troi",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Nguyễn Văn Trỗi",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Hem 145 Nguyen Van Troi",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Hẻm 145 Nguyễn Văn Trỗi",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": 1.3544812
+                        },
+                        {
+                            "action": "continue",
+                            "duration": 203,
+                            "length": 815,
+                            "offset": 86,
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Hem 145 Nguyen Van Troi",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Hẻm 145 Nguyễn Văn Trỗi",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Nguyen Van Troi",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Nguyễn Văn Trỗi",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": -1.1797923
+                        },
+                        {
+                            "action": "continue",
+                            "duration": 47,
+                            "length": 193,
+                            "offset": 109,
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Nguyen Van Troi",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Nguyễn Văn Trỗi",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Hem 307 Nguyen Van Troi",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Hẻm 307 Nguyễn Văn Trỗi",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": -0.097016
+                        },
+                        {
+                            "action": "continue",
+                            "duration": 26,
+                            "length": 102,
+                            "offset": 112,
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Hem 307 Nguyen Van Troi",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Hẻm 307 Nguyễn Văn Trỗi",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Nguyen Van Troi",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Nguyễn Văn Trỗi",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": -4.9699736
+                        },
+                        {
+                            "action": "keep",
+                            "duration": 43,
+                            "length": 210,
+                            "offset": 115,
+                            "direction": "middle",
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Nguyen Van Troi",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Nguyễn Văn Trỗi",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Phan Dinh Giot",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Phan Đình Giót",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": 5.9346967
+                        },
+                        {
+                            "action": "turn",
+                            "duration": 271,
+                            "length": 1057,
+                            "offset": 121,
+                            "direction": "right",
+                            "severity": "quite",
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Phan Dinh Giot",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Phan Đình Giót",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Phan Dinh Giot",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Phan Đình Giót",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": 33.6842537
+                        },
+                        {
+                            "action": "keep",
+                            "duration": 72,
+                            "length": 319,
+                            "offset": 145,
+                            "direction": "right",
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Truong Son",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Trường Sơn",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Truong Son",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Trường Sơn",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": 14.210638
+                        },
+                        {
+                            "action": "turn",
+                            "duration": 17,
+                            "length": 49,
+                            "offset": 155,
+                            "direction": "right",
+                            "severity": "quite",
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Truong Son",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Trường Sơn",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Hong Ha",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Hồng Hà",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": 49.6981392
+                        },
+                        {
+                            "action": "turn",
+                            "duration": 21,
+                            "length": 65,
+                            "offset": 158,
+                            "direction": "left",
+                            "severity": "quite",
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Hong Ha",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Hồng Hà",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": -29.6871815
+                        },
+                        {
+                            "action": "turn",
+                            "duration": 12,
+                            "length": 49,
+                            "offset": 165,
+                            "direction": "left",
+                            "severity": "quite",
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Truong Son",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Trường Sơn",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": -52.7936211
+                        },
+                        {
+                            "action": "arrive",
+                            "duration": 0,
+                            "length": 0,
+                            "offset": 167,
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Truong Son",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Trường Sơn",
+                                        "language": "vi"
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "departure": {
+                        "time": "2024-11-16T23:08:18+07:00",
+                        "place": {
+                            "type": "place",
+                            "location": {
+                                "lat": 10.7781299,
+                                "lng": 106.68168
+                            }
+                        }
+                    },
+                    "arrival": {
+                        "time": "2024-11-16T23:30:43+07:00",
+                        "place": {
+                            "type": "place",
+                            "location": {
+                                "lat": 10.81357,
+                                "lng": 106.6651799
+                            },
+                            "originalLocation": {
+                                "lat": 10.81357,
+                                "lng": 106.6651499
+                            }
+                        }
+                    },
+                    "summary": {
+                        "duration": 1345,
+                        "length": 5343,
+                        "baseDuration": 1345
+                    },
+                    "polyline": "BGkh7xUg1qvrGsJAwHwCwH4D0PoG0KgFsOwHsO8G4NsE4XgK8V0KkXoLwMoGs2BgZ4rB0UgtBoV4hBkSoQ8G4D8B4SkI0FU8Q0FwMwHoL4DsToBgKAgF7BgKvH8G7BoG7BsEnBgPUgFUkNwCkIkDgKUoGoB0Z8G0U8GwMgF8LgFoGwCsO8GgF8BkXrYgU7V0K7LsJ_J8LvM4IrJsE_EgF_E4D7GgPzPoG7GkIrJkNzP0FvCkD7BoG_EgZzZsE_E0KnL4D_EoGzFoG7G8L3NkDzF0F_JoB3DgFvHwHvMgPnasO_YgZ7pB8G3IwCnGkDzFkD_E0KrT4IzPwHvM8LrTsOzZsO_YkNvWgPrYsd_xB4S7f8G7LkNzU8B3D8BvCoBvCsEjI8L_T8BjDgF3IkNnVsOvWkNnVsE7G4DnG8LzZ8LrTsJ_OkSzesT3hB8Q3c4DnG8a_sB8Q_dwM_T4N7akInQ0FjI4DrEoLnQsE7GgFjIwgBj1BwH7L0FvCoazPsTnQoQ3I4X_J0oBnL8nCjSgFnBgKvC0PT03BnB0ZoBwb8BgjBwC8a4DsOU0ewCsToBsJoBoVwCoGUsJUwlBsE0U8B4IkD0FU8akDsJUsT8Bwb8Boa8BkNAsiB4D8GUgFwHkD4IoBsJ4DgFwCwC0FoB4DTwCjDkDjDwC3I_OzU7BnB",
+                    "transport": {
+                        "mode": "bicycle"
+                    }
+                }
+            ]
+        }
+    ]
+}

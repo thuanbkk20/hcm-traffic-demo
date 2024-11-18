@@ -1,0 +1,388 @@
+{
+    "routes": [
+        {
+            "id": "8648d537-39d7-4bef-91a7-6f00820c19de",
+            "sections": [
+                {
+                    "id": "f1cb9358-0588-491a-b2e9-71cc2f2865cd",
+                    "type": "vehicle",
+                    "turnByTurnActions": [
+                        {
+                            "action": "depart",
+                            "duration": 302,
+                            "length": 1172,
+                            "offset": 0,
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Nguyen Kiem",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Nguyễn Kiệm",
+                                        "language": "vi"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "action": "turn",
+                            "duration": 180,
+                            "length": 705,
+                            "offset": 50,
+                            "direction": "left",
+                            "severity": "quite",
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Nguyen Kiem",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Nguyễn Kiệm",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Dang Van Sam",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Đặng Văn Sâm",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": -90.0000076
+                        },
+                        {
+                            "action": "continue",
+                            "duration": 31,
+                            "length": 121,
+                            "offset": 64,
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Dang Van Sam",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Đặng Văn Sâm",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Bach Dang",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Bạch Đằng",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": 2.2288821
+                        },
+                        {
+                            "action": "continue",
+                            "duration": 12,
+                            "length": 44,
+                            "offset": 68,
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Bach Dang",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Bạch Đằng",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Dang Van Sam",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Đặng Văn Sâm",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": 2.3580272
+                        },
+                        {
+                            "action": "continue",
+                            "duration": 35,
+                            "length": 46,
+                            "offset": 69,
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Dang Van Sam",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Đặng Văn Sâm",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Hem 54 Duong Dang Van Sam",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Hem 54 Bach Dang",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Hẻm 54 Đường Đặng Văn Sâm",
+                                        "language": "vi"
+                                    },
+                                    {
+                                        "value": "Hẻm 54 Bạch Đằng",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": 0.0399703
+                        },
+                        {
+                            "action": "turn",
+                            "duration": 7,
+                            "length": 17,
+                            "offset": 70,
+                            "direction": "left",
+                            "severity": "quite",
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Hem 54 Duong Dang Van Sam",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Hem 54 Bach Dang",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Hẻm 54 Đường Đặng Văn Sâm",
+                                        "language": "vi"
+                                    },
+                                    {
+                                        "value": "Hẻm 54 Bạch Đằng",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Bach Dang",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Bạch Đằng",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": -68.1871719
+                        },
+                        {
+                            "action": "continue",
+                            "duration": 24,
+                            "length": 102,
+                            "offset": 71,
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Bach Dang",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Bạch Đằng",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Nguyen Thai Son",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Nguyễn Thái Sơn",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": 8.9897308
+                        },
+                        {
+                            "action": "continue",
+                            "duration": 134,
+                            "length": 580,
+                            "offset": 72,
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Nguyen Thai Son",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Nguyễn Thái Sơn",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Bach Dang",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Bạch Đằng",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": 1.884094
+                        },
+                        {
+                            "action": "keep",
+                            "duration": 9,
+                            "length": 36,
+                            "offset": 80,
+                            "direction": "left",
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Bach Dang",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Bạch Đằng",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Bach Dang",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Bạch Đằng",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": -17.7846928
+                        },
+                        {
+                            "action": "continue",
+                            "duration": 12,
+                            "length": 49,
+                            "offset": 81,
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Bach Dang",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Bạch Đằng",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Truong Son",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Trường Sơn",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": -15.0126743
+                        },
+                        {
+                            "action": "arrive",
+                            "duration": 0,
+                            "length": 0,
+                            "offset": 83,
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Truong Son",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Trường Sơn",
+                                        "language": "vi"
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "departure": {
+                        "time": "2024-11-16T10:19:26+07:00",
+                        "place": {
+                            "type": "place",
+                            "location": {
+                                "lat": 10.79916,
+                                "lng": 106.6802799
+                            },
+                            "originalLocation": {
+                                "lat": 10.79916,
+                                "lng": 106.68026
+                            }
+                        }
+                    },
+                    "arrival": {
+                        "time": "2024-11-16T10:31:52+07:00",
+                        "place": {
+                            "type": "place",
+                            "location": {
+                                "lat": 10.81357,
+                                "lng": 106.6651799
+                            },
+                            "originalLocation": {
+                                "lat": 10.81357,
+                                "lng": 106.6651499
+                            }
+                        }
+                    },
+                    "summary": {
+                        "duration": 746,
+                        "length": 2872,
+                        "baseDuration": 746
+                    },
+                    "polyline": "BGwjkzUw9nvrG4I3DoLrEsY3IgP7GsE7BoGvCkSvHwHjDkIjDwWjIgK3D4DnB0P7B4NvH8G7BoGnBgKvCkI7B4DTsTjDoGnB8QAoLrE8L7B4InBkInBkDTwgBrEoQ7B4DnBkDTwCTsTjDgPvCgoB7GsJnBoQ7BsTvCsEAgPT8fT4DA0PA4SAwHU8GAkcT0UU0KUwMAA3NoB3I8BzFkDzF4IjN4IzKwHrJ4S3S0FnG41Bz8Bwb3hBwjCrqC4X7a4SnVkN3NsO3NgKzKgKnLwRjSkS3S3D3IrOn4BnBzFnGzerEzZjDnkB_Ej_BvCrsB3DzhC3Dj6BvHrT_OzU7BnB",
+                    "transport": {
+                        "mode": "bicycle"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,805 @@
+{
+    "routes": [
+        {
+            "id": "a41933ec-a219-4f04-b6cf-4fb0041ddf5d",
+            "sections": [
+                {
+                    "id": "e5b356af-ac39-490f-9013-f1547977c728",
+                    "type": "vehicle",
+                    "turnByTurnActions": [
+                        {
+                            "action": "depart",
+                            "duration": 6,
+                            "length": 16,
+                            "offset": 0,
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Cong Truong Dan Chu",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Công Trường Dân Chủ",
+                                        "language": "vi"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "action": "roundaboutExit",
+                            "duration": 101,
+                            "length": 409,
+                            "offset": 2,
+                            "direction": "right",
+                            "exit": 1,
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Cong Truong Dan Chu",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Công Trường Dân Chủ",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Cach Mang Thang 8",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Cách Mạng Tháng 8",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": 78.443222,
+                            "roundaboutAngle": 0.0
+                        },
+                        {
+                            "action": "continue",
+                            "duration": 2,
+                            "length": 10,
+                            "offset": 16,
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Cach Mang Thang 8",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Cách Mạng Tháng 8",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Hem 210 Cach Mang Thang 8",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Hẻm 210 Cách Mạng Tháng 8",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": -1.3636336
+                        },
+                        {
+                            "action": "continue",
+                            "duration": 12,
+                            "length": 51,
+                            "offset": 17,
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Hem 210 Cach Mang Thang 8",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Hẻm 210 Cách Mạng Tháng 8",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Cach Mang Thang 8",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Cách Mạng Tháng 8",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": 3.2204616
+                        },
+                        {
+                            "action": "continue",
+                            "duration": 11,
+                            "length": 47,
+                            "offset": 19,
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Cach Mang Thang 8",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Cách Mạng Tháng 8",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Hem 240 Cach Mang Thang 8",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Hẻm 240 Cách Mạng Tháng 8",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": 0.5451584
+                        },
+                        {
+                            "action": "continue",
+                            "duration": 7,
+                            "length": 17,
+                            "offset": 21,
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Hem 240 Cach Mang Thang 8",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Hẻm 240 Cách Mạng Tháng 8",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Hem 258 Cach Mang Thang 8",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Hẻm 258 Cách Mạng Tháng 8",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": -2.7212021
+                        },
+                        {
+                            "action": "continue",
+                            "duration": 58,
+                            "length": 209,
+                            "offset": 22,
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Hem 258 Cach Mang Thang 8",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Hẻm 258 Cách Mạng Tháng 8",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Cach Mang Thang 8",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Cách Mạng Tháng 8",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": -0.0141248
+                        },
+                        {
+                            "action": "continue",
+                            "duration": 7,
+                            "length": 29,
+                            "offset": 35,
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Cach Mang Thang 8",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Cách Mạng Tháng 8",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Hem 322 Cach Mang Thang 8",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Hẻm 322 Cách Mạng Tháng 8",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": 2.114244
+                        },
+                        {
+                            "action": "continue",
+                            "duration": 76,
+                            "length": 295,
+                            "offset": 37,
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Hem 322 Cach Mang Thang 8",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Hẻm 322 Cách Mạng Tháng 8",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Cach Mang Thang 8",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Cách Mạng Tháng 8",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": -4.8513741
+                        },
+                        {
+                            "action": "continue",
+                            "duration": 8,
+                            "length": 36,
+                            "offset": 50,
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Cach Mang Thang 8",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Cách Mạng Tháng 8",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Hem 372 Cach Mang Thang 8",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Hẻm 372 Cách Mạng Tháng 8",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": 0.2747649
+                        },
+                        {
+                            "action": "continue",
+                            "duration": 99,
+                            "length": 415,
+                            "offset": 51,
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Hem 372 Cach Mang Thang 8",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Hẻm 372 Cách Mạng Tháng 8",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Cach Mang Thang 8",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Cách Mạng Tháng 8",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": -2.3567159
+                        },
+                        {
+                            "action": "continue",
+                            "duration": 3,
+                            "length": 12,
+                            "offset": 66,
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Cach Mang Thang 8",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Cách Mạng Tháng 8",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Hem 623 Cach Mang Thang 8",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Hẻm 623 Cách Mạng Tháng 8",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": -2.0213809
+                        },
+                        {
+                            "action": "continue",
+                            "duration": 24,
+                            "length": 92,
+                            "offset": 67,
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Hem 623 Cach Mang Thang 8",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Hẻm 623 Cách Mạng Tháng 8",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Cach Mang Thang 8",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Cách Mạng Tháng 8",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": -1.2570554
+                        },
+                        {
+                            "action": "continue",
+                            "duration": 4,
+                            "length": 17,
+                            "offset": 70,
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Cach Mang Thang 8",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Cách Mạng Tháng 8",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Hem 609 Cach Mang Thang 8",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Hẻm 609 Cách Mạng Tháng 8",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": 2.6162357
+                        },
+                        {
+                            "action": "continue",
+                            "duration": 9,
+                            "length": 45,
+                            "offset": 71,
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Hem 609 Cach Mang Thang 8",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Hẻm 609 Cách Mạng Tháng 8",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Cach Mang Thang 8",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Cách Mạng Tháng 8",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": 4.454185
+                        },
+                        {
+                            "action": "continue",
+                            "duration": 18,
+                            "length": 74,
+                            "offset": 74,
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Cach Mang Thang 8",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Cách Mạng Tháng 8",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Hem 518 Cach Mang Thang 8",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Hẻm 518 Cách Mạng Tháng 8",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": 1.4940629
+                        },
+                        {
+                            "action": "continue",
+                            "duration": 5,
+                            "length": 21,
+                            "offset": 76,
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Hem 518 Cach Mang Thang 8",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Hẻm 518 Cách Mạng Tháng 8",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Hem 540 Cach Mang Thang 8",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Hẻm 540 Cách Mạng Tháng 8",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": 6.0047474
+                        },
+                        {
+                            "action": "continue",
+                            "duration": 24,
+                            "length": 105,
+                            "offset": 77,
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Hem 540 Cach Mang Thang 8",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Hẻm 540 Cách Mạng Tháng 8",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Cach Mang Thang 8",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Cách Mạng Tháng 8",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": 0.0
+                        },
+                        {
+                            "action": "continue",
+                            "duration": 13,
+                            "length": 46,
+                            "offset": 80,
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Cach Mang Thang 8",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Cách Mạng Tháng 8",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Hem 462 Cach Mang Thang 8",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Hẻm 462 Cách Mạng Tháng 8",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": -4.9913931
+                        },
+                        {
+                            "action": "continue",
+                            "duration": 271,
+                            "length": 1079,
+                            "offset": 81,
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Hem 462 Cach Mang Thang 8",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Hẻm 462 Cách Mạng Tháng 8",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Cach Mang Thang 8",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Cách Mạng Tháng 8",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": 3.6483047
+                        },
+                        {
+                            "action": "continue",
+                            "duration": 9,
+                            "length": 39,
+                            "offset": 117,
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Cach Mang Thang 8",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Cách Mạng Tháng 8",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Hem 1025 Cach Mang Thang 8",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Hẻm 1025 Cách Mạng Tháng 8",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": 1.2801414
+                        },
+                        {
+                            "action": "continue",
+                            "duration": 25,
+                            "length": 104,
+                            "offset": 118,
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Hem 1025 Cach Mang Thang 8",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Hẻm 1025 Cách Mạng Tháng 8",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Hem 1073 Cach Mang Thang 8",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Hẻm 1073 Cách Mạng Tháng 8",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": -0.5752932
+                        },
+                        {
+                            "action": "continue",
+                            "duration": 65,
+                            "length": 277,
+                            "offset": 119,
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Hem 1073 Cach Mang Thang 8",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Hẻm 1073 Cách Mạng Tháng 8",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Cach Mang Thang 8",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Cách Mạng Tháng 8",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": 0.0010109
+                        },
+                        {
+                            "action": "keep",
+                            "duration": 8,
+                            "length": 40,
+                            "offset": 124,
+                            "direction": "left",
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Cach Mang Thang 8",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Cách Mạng Tháng 8",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Cach Mang Thang 8",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Cách Mạng Tháng 8",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": -1.1738636
+                        },
+                        {
+                            "action": "arrive",
+                            "duration": 0,
+                            "length": 0,
+                            "offset": 125,
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Cach Mang Thang 8",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Cách Mạng Tháng 8",
+                                        "language": "vi"
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "departure": {
+                        "time": "2024-11-16T10:28:21+07:00",
+                        "place": {
+                            "type": "place",
+                            "location": {
+                                "lat": 10.7780699,
+                                "lng": 106.6815
+                            },
+                            "originalLocation": {
+                                "lat": 10.77786,
+                                "lng": 106.6816499
+                            }
+                        }
+                    },
+                    "arrival": {
+                        "time": "2024-11-16T10:42:46+07:00",
+                        "place": {
+                            "type": "place",
+                            "location": {
+                                "lat": 10.7928414,
+                                "lng": 106.6534862
+                            },
+                            "originalLocation": {
+                                "lat": 10.79283,
+                                "lng": 106.65348
+                            }
+                        }
+                    },
+                    "summary": {
+                        "duration": 865,
+                        "length": 3485,
+                        "baseDuration": 865
+                    },
+                    "polyline": "BGs96xU4pqvrGnBjDrE3DgUvlB8LvWwCrEwHzPkI3NkInQoG7L0P_doBvCsEjI0FnL0FrJ8G7L0FzKwC_EwHjNoG7LsEjI4IzPsE3IsE3IwHzPkDzF0FnLwC_E8G7LkDvH8BrEsJ_O4D7GkDnGkDzFoBvC4D7GsEvHoGjNoL3S8B3DoGvM8BjDwC_EwC3D4I7QTnBgPrYsJ7Q8L7V4D7GgKjS8L3XoGnL0PjckN_YoGvMgF7L8BrEwHrOoB7BkDzFkNvWsEjI0FzK8L7V4D7GkDnGoL3XgKvRwCzFsE3I4DnGkD_E0FnLgFrJ4NjcoG_JoG_J4N_YsJ7Q0K3XkN_YsJjS8L7V8GvM0F_JsJzP4NzZsY_sB8L7VkSjhBkDzFgF_J4DvHsEjI8GvMwH3N8GrO8G_OoGzKoBvC8B3D0KzPgFzKoG7LwC_EgFnLoBzFoQ_doLzU0FnLsJjS8QvgBwCzFoG7L8B3DkIzP0KrTkcv0B4S_iB8B3Dge_2BkDzF8VrnB2KnU",
+                    "transport": {
+                        "mode": "bicycle"
+                    }
+                }
+            ]
+        }
+    ]
+}

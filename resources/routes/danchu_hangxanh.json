@@ -1,0 +1,460 @@
+{
+    "routes": [
+        {
+            "id": "415b6b5e-6919-4860-9a1e-525bf3919d6e",
+            "sections": [
+                {
+                    "id": "0f8454d7-09f6-4f99-b4eb-4314011c2be6",
+                    "type": "vehicle",
+                    "turnByTurnActions": [
+                        {
+                            "action": "depart",
+                            "duration": 29,
+                            "length": 111,
+                            "offset": 0,
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Cong Truong Dan Chu",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Công Trường Dân Chủ",
+                                        "language": "vi"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "action": "roundaboutExit",
+                            "duration": 62,
+                            "length": 224,
+                            "offset": 11,
+                            "direction": "right",
+                            "exit": 4,
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Cong Truong Dan Chu",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Công Trường Dân Chủ",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Cach Mang Thang 8",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Cách Mạng Tháng 8",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": -29.9895306,
+                            "roundaboutAngle": 308.0
+                        },
+                        {
+                            "action": "turn",
+                            "duration": 231,
+                            "length": 965,
+                            "offset": 14,
+                            "direction": "left",
+                            "severity": "quite",
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Cach Mang Thang 8",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Cách Mạng Tháng 8",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Dien Bien Phu",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Điện Biên Phủ",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": -74.956665
+                        },
+                        {
+                            "action": "continue",
+                            "duration": 14,
+                            "length": 54,
+                            "offset": 27,
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Dien Bien Phu",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Điện Biên Phủ",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Hem 216 Dien Bien Phu",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Hẻm 216 Điện Biên Phủ",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": 0.0907732
+                        },
+                        {
+                            "action": "continue",
+                            "duration": 176,
+                            "length": 687,
+                            "offset": 28,
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Hem 216 Dien Bien Phu",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Hẻm 216 Điện Biên Phủ",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Dien Bien Phu",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Điện Biên Phủ",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": -0.8431152
+                        },
+                        {
+                            "action": "continue",
+                            "duration": 32,
+                            "length": 131,
+                            "offset": 39,
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Dien Bien Phu",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Điện Biên Phủ",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Hem 159 Dien Bien Phu",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Hẻm 159 Điện Biên Phủ",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": -0.4482619
+                        },
+                        {
+                            "action": "continue",
+                            "duration": 5,
+                            "length": 19,
+                            "offset": 41,
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Hem 159 Dien Bien Phu",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Hẻm 159 Điện Biên Phủ",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Dien Bien Phu",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Điện Biên Phủ",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": 3.0800397
+                        },
+                        {
+                            "action": "continue",
+                            "duration": 11,
+                            "length": 41,
+                            "offset": 42,
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Dien Bien Phu",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Điện Biên Phủ",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Hem 127 Dien Bien Phu",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Hẻm 127 Điện Biên Phủ",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": -1.1949621
+                        },
+                        {
+                            "action": "continue",
+                            "duration": 114,
+                            "length": 527,
+                            "offset": 43,
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Hem 127 Dien Bien Phu",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Hẻm 127 Điện Biên Phủ",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Dien Bien Phu",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Điện Biên Phủ",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": 3.3313053
+                        },
+                        {
+                            "action": "roundaboutEnter",
+                            "duration": 24,
+                            "length": 95,
+                            "offset": 57,
+                            "direction": "right",
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Dien Bien Phu",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Điện Biên Phủ",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Bung Binh Dien Bien Phu",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Bùng Binh Điện Biên Phủ",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": 47.4949417
+                        },
+                        {
+                            "action": "roundaboutExit",
+                            "duration": 73,
+                            "length": 320,
+                            "offset": 65,
+                            "direction": "right",
+                            "exit": 2,
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Bung Binh Dien Bien Phu",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Bùng Binh Điện Biên Phủ",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Dien Bien Phu",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Điện Biên Phủ",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "roundaboutAngle": 177.0
+                        },
+                        {
+                            "action": "turn",
+                            "duration": 308,
+                            "length": 1260,
+                            "offset": 93,
+                            "direction": "right",
+                            "severity": "light",
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Dien Bien Phu",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Điện Biên Phủ",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Dien Bien Phu",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Điện Biên Phủ",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": 41.906414
+                        },
+                        {
+                            "action": "turn",
+                            "duration": 19,
+                            "length": 68,
+                            "offset": 126,
+                            "direction": "right",
+                            "severity": "quite",
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Dien Bien Phu",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Điện Biên Phủ",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": 63.6710091
+                        },
+                        {
+                            "action": "arrive",
+                            "duration": 0,
+                            "length": 0,
+                            "offset": 133,
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Xo Viet Nghe Tinh",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Xô Viết Nghệ Tĩnh",
+                                        "language": "vi"
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "departure": {
+                        "time": "2024-11-16T10:27:53+07:00",
+                        "place": {
+                            "type": "place",
+                            "location": {
+                                "lat": 10.7780699,
+                                "lng": 106.6815
+                            },
+                            "originalLocation": {
+                                "lat": 10.77786,
+                                "lng": 106.6816499
+                            }
+                        }
+                    },
+                    "arrival": {
+                        "time": "2024-11-16T10:46:11+07:00",
+                        "place": {
+                            "type": "place",
+                            "location": {
+                                "lat": 10.8007899,
+                                "lng": 106.7112599
+                            },
+                            "originalLocation": {
+                                "lat": 10.80077,
+                                "lng": 106.71122
+                            }
+                        }
+                    },
+                    "summary": {
+                        "duration": 1098,
+                        "length": 4502,
+                        "baseDuration": 1098
+                    },
+                    "polyline": "BGs96xU4pqvrGnBjDrE3D7GnB7GUzFkDvC4DjDgFT0FA0FkD0F4DsE_d41B7VgoB_JkSwHwHwWwW0oB8pB4hBgjBkmBgoB0FoG8a0e0jB4mB8kB4mBokBwlBgmCgmCoB8B4XsYoV8VgKgKsJ0KsEgF0UwW0jBwgBsiB4hBokBokBgjBkhBgZsYkS4S4wB0tB8fsdwW8VwHkIoQ8Q4DsEoG8GwgBwgBoagZwb4X4DkDsJoLkS8Q8LoLokBgjB8QoQoG0FwCkDsJoQ7BoGAkIwC8G0FoGoGkD8GT4D7BsE3DsEsEkXwW8B8B8V8V0KoLgFgFoLsJ8B8B8B8BwCwCoBoBwC8B8B8BwC8BwCwCwCwCwCwCkDwC8BwC8B8B8B8BwC8BkDwCwC8BwC8BsE4D4DkDwCwCUgKoBsEwCgFsJoLoLoLozBsxBwCwCkDkDkI8G0ZsYopB0oB0ZoakNwMkSwR0K0KwgBofofsiB0PoVsEgF4NoVwRwb4SgjBgF4I0KgZwCgFsEgK8G4SkDoLgFgPkD8QkD4SwCoQwCkNvC8G3DoGzFsE3DwC3D8B7B8BjDsE",
+                    "transport": {
+                        "mode": "bicycle"
+                    }
+                }
+            ]
+        }
+    ]
+}

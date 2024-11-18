@@ -1,0 +1,152 @@
+{
+    "routes": [
+        {
+            "id": "d44b9454-7142-49db-a9d2-e72af8db0e60",
+            "sections": [
+                {
+                    "id": "3b32667f-07fc-4549-b550-8c078f4b0aac",
+                    "type": "vehicle",
+                    "turnByTurnActions": [
+                        {
+                            "action": "depart",
+                            "duration": 84,
+                            "length": 368,
+                            "offset": 0,
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Vo Thi Sau",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Võ Thị Sáu",
+                                        "language": "vi"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "action": "keep",
+                            "duration": 286,
+                            "length": 1192,
+                            "offset": 10,
+                            "direction": "left",
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Vo Thi Sau",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Võ Thị Sáu",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Vo Thi Sau",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Võ Thị Sáu",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": 0.3151586
+                        },
+                        {
+                            "action": "roundaboutEnter",
+                            "duration": 16,
+                            "length": 67,
+                            "offset": 36,
+                            "direction": "right",
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Duong Vo Thi Sau",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Đường Võ Thị Sáu",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "nextRoad": {
+                                "name": [
+                                    {
+                                        "value": "Cong Truong Dan Chu",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Công Trường Dân Chủ",
+                                        "language": "vi"
+                                    }
+                                ]
+                            },
+                            "turnAngle": 102.9115829
+                        },
+                        {
+                            "action": "arrive",
+                            "duration": 0,
+                            "length": 0,
+                            "offset": 42,
+                            "currentRoad": {
+                                "name": [
+                                    {
+                                        "value": "Cong Truong Dan Chu",
+                                        "language": "vi-Latn"
+                                    },
+                                    {
+                                        "value": "Công Trường Dân Chủ",
+                                        "language": "vi"
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "departure": {
+                        "time": "2024-11-17T00:02:50+07:00",
+                        "place": {
+                            "type": "place",
+                            "location": {
+                                "lat": 10.78786,
+                                "lng": 106.6919599
+                            },
+                            "originalLocation": {
+                                "lat": 10.7879039,
+                                "lng": 106.6919709
+                            }
+                        }
+                    },
+                    "arrival": {
+                        "time": "2024-11-17T00:09:16+07:00",
+                        "place": {
+                            "type": "place",
+                            "location": {
+                                "lat": 10.7780699,
+                                "lng": 106.6815
+                            },
+                            "originalLocation": {
+                                "lat": 10.77786,
+                                "lng": 106.6816499
+                            }
+                        }
+                    },
+                    "summary": {
+                        "duration": 386,
+                        "length": 1627,
+                        "baseDuration": 386
+                    },
+                    "polyline": "BGohuyUw3-vrGzZrYjXjX_J_J_J_J3I3IrE_EvHvHrJ3I7a_YvWjX7fjhB_E_E3SvRnLrJ3NzPjI7GjDjD_J_JrdjcrE3DvCvCzFzF_JzK7VzU7Q7Qna7a_OzP7f7fvoCrlC_J_JvqBvqBrYrYzZzZvHvHvRjS_JjSoG7BgFrEkDzFoBnGTzFjDzF",
+                    "transport": {
+                        "mode": "bicycle"
+                    }
+                }
+            ]
+        }
+    ]
+}

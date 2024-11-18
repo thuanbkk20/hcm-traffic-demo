@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HCM Traffic</title>
+    <!-- Load Plotly.js from a CDN -->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+
+<body>
+    <h1>Ho Chi Minh City Traffic Map</h1>
+
+    <!-- Controls for selecting origin and destination -->
+    <div>
+        <label for="origin">Origin:</label>
+        <select id="origin"></select>
+
+        <label for="destination">Destination:</label>
+        <select id="destination"></select>
+
+        <button id="get-route">Get Route</button>
+    </div>
+
+    <!-- Map container -->
+    <div id="myPlot" style="width:100%;height:600px;"></div>
+
+    <script type="text/javascript">
+        // Parse the figure data from the server
+        const figData = JSON.parse('{{ fig_json | safe }}');
+        const points = JSON.parse('{{ points_json | tojson | safe }}');
+
+        // Render the initial Plotly figure
+        Plotly.newPlot('myPlot', figData.data, figData.layout);
+
+        // Populate dropdowns for origin and destination
+        const originSelect = document.getElementById("origin");
+        const destinationSelect = document.getElementById("destination");
+
+        // Populate dropdown options with the available points
+        for (const [pointId, coords] of Object.entries(points)) {
+            const option = document.createElement("option");
+            option.value = pointId;
+            option.textContent = coords;
+            originSelect.appendChild(option.cloneNode(true));
+            destinationSelect.appendChild(option.cloneNode(true));
+            console.log(`pointId: ${pointId}, destination: ${coords}`)
+        }
+
+        // Event listener for fetching and displaying a route
+        document.getElementById("get-route").addEventListener("click", () => {
+            const origin = originSelect.value;
+            const destination = destinationSelect.value;
+
+            if (origin && destination && origin !== destination) {
+                // Send request to the server
+                fetch("/get_route", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({ origin, destination }),
+                })
+                .then(response => response.json())
+                .then(data => {
+                    if (data.fig_json) {
+                        // Parse and render the updated figure directly
+                        const figData = JSON.parse(data.fig_json);
+                        Plotly.newPlot('myPlot', figData.data, figData.layout);
+                    } else {
+                        alert("No route found!");
+                    }
+                })
+                .catch(err => console.error("Error fetching route:", err));
+            } else {
+                alert("Select valid origin and destination!");
+            }
+        });
+    </script>
+</body>
+
+</html>
