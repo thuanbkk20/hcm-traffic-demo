@@ -3,7 +3,8 @@ import plotly.graph_objects as go
 from plotly.io import to_json
 import glob
 
-from utils.graph_with_map import create_figure, read_points_and_results, add_traffic_layer  # Make sure to import the add_traffic_layer function
+from utils.graph_with_map import create_figure, read_points_and_results, add_traffic_layer
+from resources.drive.dinicAlgorithm import get_dinic_result
 
 app = Flask(__name__)
 
@@ -40,10 +41,8 @@ def get_route():
     print(f"{origin} -> {destination}")
 
     # Mock flow data based on the origin and destination points
-    flow = [
-        {"source": 0, "destination": 1, "flow": 1200},
-        {"source": 1, "destination": 2, "flow": 2400}
-    ]
+    flow = get_dinic_result(origin, destination)
+
 
     if len(flow) > 0:
         # Create the figure and add traffic layer with the flow data
