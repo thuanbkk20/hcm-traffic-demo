@@ -43,6 +43,9 @@
             const option = document.createElement("option");
             option.value = pointId;
             option.textContent = coords;
+            if (pointId == 81) option.textContent = 'Ngã tư Hàng Xanh';
+            if (pointId == 0) option.textContent = 'Ngã tư Bảy Hiền';
+            if (pointId == 164) option.textContent = 'Sân bay Tân Sơn Nhất';
             originSelect.appendChild(option.cloneNode(true));
             destinationSelect.appendChild(option.cloneNode(true));
             console.log(`pointId: ${pointId}, destination: ${coords}`)

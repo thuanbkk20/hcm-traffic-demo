@@ -48,7 +48,7 @@ def get_route():
         # Create the figure and add traffic layer with the flow data
         fig = go.Figure()
         create_figure(fig)
-        add_traffic_layer(fig, points, flow)  # Add the traffic layer with the mock flow data
+        add_traffic_layer(fig, points, flow, origin, destination)  # Add the traffic layer with the mock flow data
 
         # Update layout for the map
         fig.update_layout(
@@ -60,7 +60,6 @@ def get_route():
             })
 
         fig_json = to_json(fig)
-        print(f"fig_json: {fig_json}")
         return jsonify({"route": flow, "fig_json": fig_json})  # Return the flow data and updated figure
 
     return jsonify({"error": "Invalid points"}), 400

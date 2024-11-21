@@ -97,28 +97,28 @@ def add_trace(fig, longitudes, latitudes, road_names, traffics):
             name="Point"
         ))
 
-def add_traffic_layer(fig, points, traffic_data):
+def add_traffic_layer(fig, points, traffic_data, origin, destination):
     print("Adding traffic layer")
+    print(f"Origin: {origin}, Destination: {destination}")
+    
+    # Add traffic flow routes
     for route in traffic_data:
         print(f"route: {route}")
         source = points.get(route['source'])
-        destination = points.get(route['destination'])
+        dest = points.get(route['destination'])
         flow = route['flow']
 
-        if source and destination:
+        if source and dest:
             source_lat, source_lon = source
-            dest_lat, dest_lon = destination
+            dest_lat, dest_lon = dest
 
             line_width = (flow / 1200) + 1
 
+            # Add the traffic flow line
             fig.add_trace(go.Scattermapbox(
-                mode="lines+markers",
+                mode="lines",
                 lon=[source_lon, dest_lon],
                 lat=[source_lat, dest_lat],
-                marker={
-                    'size': 2,  # Small marker
-                    'color': 'rgba(0,0,0,0)'  # Transparent marker
-                },
                 line={
                     'color': 'red',
                     'width': line_width
@@ -127,3 +127,26 @@ def add_traffic_layer(fig, points, traffic_data):
                 hovertext=f"Flow: {flow}",
                 name=f"Flow: {flow}"
             ))
+
+    # Add markers for origin and destination
+    if origin is not None:
+        fig.add_trace(go.Scattermapbox(
+            mode="markers",
+            lon=[points.get(origin)[1]],
+            lat=[points.get(origin)[0]],
+            marker={'size': 14, 'color': 'orange'},
+            hoverinfo='text',
+            hovertext="Origin",
+            name="Origin"
+        ))
+
+    if destination is not None:
+        fig.add_trace(go.Scattermapbox(
+            mode="markers",
+            lon=[points.get(destination)[1]],
+            lat=[points.get(destination)[0]],
+            marker={'size': 14, 'color': 'orange'},
+            hoverinfo='text',
+            hovertext="Destination",
+            name="Destination"
+        ))
